@@ -35,5 +35,4 @@ var time2 = 0;
 function mousePressed(){
     beep.play();
     time1 = window.performance.timing.navigationStart + window.performance.now();
-    background(255);
 }
